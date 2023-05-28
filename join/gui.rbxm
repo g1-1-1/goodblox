@@ -1,0 +1,210 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.testrbx.tk/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="ImageLabel" referent="RBX0">
+		<Properties>
+			<bool name="Active">false</bool>
+			<Color3 name="BackgroundColor3">4294967295</Color3>
+			<float name="BackgroundTransparency">1</float>
+			<Color3 name="BorderColor3">4279970357</Color3>
+			<int name="BorderSizePixel">1</int>
+			<Content name="Image"><url>rbxasset://Textures/plantaleputo.png</url></Content>
+			<string name="Name">ImageLabel</string>
+			<UDim2 name="Position">
+				<XS>0</XS>
+				<XO>0</XO>
+				<YS>0.800000012</YS>
+				<YO>3</YO>
+			</UDim2>
+			<UDim2 name="Size">
+				<XS>1</XS>
+				<XO>0</XO>
+				<YS>0.25</YS>
+				<YO>0</YO>
+			</UDim2>
+			<token name="SizeConstraint">1</token>
+			<bool name="Visible">true</bool>
+			<int name="ZIndex">1</int>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="GuiMain" referent="RBX1">
+		<Properties>
+			<string name="Name">Health-GUI</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Frame" referent="RBX2">
+			<Properties>
+				<bool name="Active">false</bool>
+				<Color3 name="BackgroundColor3">4285215356</Color3>
+				<float name="BackgroundTransparency">1</float>
+				<Color3 name="BorderColor3">4279970357</Color3>
+				<int name="BorderSizePixel">1</int>
+				<string name="Name">Tray</string>
+				<UDim2 name="Position">
+					<XS>0.949999988</XS>
+					<XO>0</XO>
+					<YS>0.380000025</YS>
+					<YO>0</YO>
+				</UDim2>
+				<UDim2 name="Size">
+					<XS>0.0450000018</XS>
+					<XO>0</XO>
+					<YS>0.340000004</YS>
+					<YO>0</YO>
+				</UDim2>
+				<token name="SizeConstraint">0</token>
+				<bool name="Visible">true</bool>
+				<int name="ZIndex">1</int>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="ImageLabel" referent="RBX0">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Color3 name="BackgroundColor3">4294967295</Color3>
+					<float name="BackgroundTransparency">1</float>
+					<Color3 name="BorderColor3">4279970357</Color3>
+					<int name="BorderSizePixel">1</int>
+					<Content name="Image"><url>rbxasset://Textures/plantaleputo.png</url></Content>
+					<string name="Name">ImageLabel</string>
+					<UDim2 name="Position">
+						<XS>0</XS>
+						<XO>0</XO>
+						<YS>0.800000012</YS>
+						<YO>3</YO>
+					</UDim2>
+					<UDim2 name="Size">
+						<XS>1</XS>
+						<XO>0</XO>
+						<YS>0.25</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">1</token>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Frame" referent="RBX3">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Color3 name="BackgroundColor3">4286957846</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">4278190080</Color3>
+					<int name="BorderSizePixel">0</int>
+					<string name="Name">HealthBar</string>
+					<UDim2 name="Position">
+						<XS>0.420000017</XS>
+						<XO>0</XO>
+						<YS>0</YS>
+						<YO>0</YO>
+					</UDim2>
+					<UDim2 name="Size">
+						<XS>0.159999996</XS>
+						<XO>0</XO>
+						<YS>0.800000012</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">2</int>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Frame" referent="RBX4">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Color3 name="BackgroundColor3">4289798947</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">4278190080</Color3>
+					<int name="BorderSizePixel">0</int>
+					<string name="Name">RedBar</string>
+					<UDim2 name="Position">
+						<XS>0.419999987</XS>
+						<XO>0</XO>
+						<YS>0</YS>
+						<YO>0</YO>
+					</UDim2>
+					<UDim2 name="Size">
+						<XS>0.159999996</XS>
+						<XO>0</XO>
+						<YS>0.800000012</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX5">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Script</string>
+				<ProtectedString name="Source">function badiedetected(badie)
+if badie.Name == &quot;HealthGUI&quot; then
+badie:remove()
+script:remove()
+end
+end
+
+local badie = script.Parent.Parent:FindFirstChild(&quot;HealthGUI&quot;)
+if badie ~= nil then
+badie:remove()
+script:remove()
+else 
+script.Parent.Parent.ChildAdded:connect(badiedetected)
+end
+</ProtectedString>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX6">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Main</string>
+				<ProtectedString name="Source">local tray = script.Parent.Tray --rescripted by agent767 (yay) have fun!
+local bar = tray.HealthBar
+local player = script.Parent.Parent.Parent
+local absolutesize = UDim2.new(0.16,0,0.8,0)
+local absoluteposition = UDim2.new(0.42,0,0,0)
+
+
+function update(something)
+if something == &quot;MaxHealth&quot; or something == &quot;Health&quot; then
+local huma = player.Character:FindFirstChild(&quot;Humanoid&quot;)
+local num = huma.Health / huma.MaxHealth
+bar.Size = UDim2.new(0.16,0,0.8 * num,0)
+bar.Position = absoluteposition - UDim2.new(0.16,0,0.8 * num,0) + absolutesize 																																																																																																																																											--agent767:P
+end
+end
+
+function findhuma(chara)
+local huma = chara:FindFirstChild(&quot;Humanoid&quot;)
+if huma ~= nil then
+huma.Changed:connect(update)
+end
+end
+
+function find(property)
+if property == &quot;Character&quot; then
+findhuma(player.Character)
+end
+end
+
+local character = player.Character
+if character == nil then
+player.Changed:connect(find)
+else
+findhuma(character)
+end
+
+</ProtectedString>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
